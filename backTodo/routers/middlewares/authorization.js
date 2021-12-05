@@ -4,8 +4,6 @@ const authorization = async(req, res, next) => {
     try {
         const roleID = req.token.role;
         const result = await roleModel.findById(roleID);
-        
-        //what is ur authorization //
         if(result.role === "admin"){
             next();
         }else{

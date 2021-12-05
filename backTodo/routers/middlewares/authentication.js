@@ -3,7 +3,6 @@ require("dotenv").config();
 
 // check if token vaild or no 
 const SECRET_KEY = process.env.SECRET_KEY;
-
 const authentication = (req, res, next) => {
   try {
     if (!req.headers.authorization) {

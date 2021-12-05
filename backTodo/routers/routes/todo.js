@@ -1,5 +1,5 @@
 const express = require('express')
-const  {getTodos ,createTodo, deleteTodo, updateTodo, getTodosById} = require('./../controllers/task')
+const  {getTodos ,createTodo, deleteTodo, updateTodo, getTodosById} = require('./../controllers/todo')
 const todoRouter = express.Router()
 const authentication = require("../middlewares/authentication");
 

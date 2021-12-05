@@ -23,7 +23,7 @@ const createRole = (req, res) => {
     });
 };
 
-// exporttt
+
 module.exports = {
   createRole,
   roles,
