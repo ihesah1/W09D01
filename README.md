@@ -1,4 +1,10 @@
 # W09D01
+
+A simple fullstack todo app with login and register using jwt authentication. Uses react hooks in frontend and nodejs, 
+
+express with mongodb and mongoose in backend.
+
+
 Admin&User 
 
 register():
